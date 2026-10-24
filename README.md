@@ -47,24 +47,4 @@ python 12402080601036_Assignment1_Q10.py
 - Q9 uses deterministic simulated time. The assignment does not define a global resource-capacity limit, so the `resources` field is retained as job metadata while worker availability controls execution.
 - Q10 persists records in `assignment_data.json` and can export all records to CSV.
 
-Before submission, replace/add your own test evidence and verify every program against your faculty's exact interpretation.
 
-## Important assignment note
-
-The Q1 document's sample says semester 3 should be `2205 2203`, but the supplied
-marks give Chaitra (2203) an average of 90.33 and Esha (2205) an average of
-89.67. The stated rule says to prefer the higher average, so the implementation
-follows the written rule and produces `2203 2205`. If your faculty expects the
-printed sample literally, confirm which interpretation they want before submission.
-
-The Q5 implementation keeps a failed batch open until `BATCH_END`; all mutations
-after the first failure are ignored and the complete batch is rolled back.
-
-## Self-created test examples
-
-For additional testing, use ordinary Indian names and identifiers such as:
-- Aditi, Rohan, Mehul, Priya, Neha and Arjun
-- Accounts such as SBI001, HDFC102 and AXIS205
-- Modules such as `billing`, `orders`, `reports` and `login`
-
-These are supplementary test values; the official assignment samples remain unchanged.
